@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - iPortfolio Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<style>
+  .twitter,
+  .facebook,
+  .instagram,
+  .github,
+  .tableau,
+  .email {
+    display: inline-flex;
+    align-items: center;     /* Vertically centers the icon */
+    text-decoration: none;
+    margin: 0 8px;
+    vertical-align: middle;
+    transition: transform 0.2s ease;
+  }
+
+  /* Make sure Bootstrap Icons don't misbehave */
+  .github i.bi {
+    display: flex;
+    align-items: center;
+  }
+</style>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my_image.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Theodoros Malezidis</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <!--<a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> 
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>-->
+      <a href="https://github.com/theodorosmalezidis" target="_blank" class="github"><i class="bi bi-github"></i>
+      </a>
+ <a href="https://public.tableau.com/app/profile/theodoros.malezidis7413/vizzes " target="_blank" class="tableau">
+  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256">
+<g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M23.5,0v4.5h-4v2h4v4.5h2v-4.5h4v-2h-4v-4.5zM11,5v6h-6v2h6v6h2v-6h6v-2h-6v-6zM36,5v6h-6v2h6v6h2v-6h6v-2h-6v-6zM23,16v7h-7v3h7v7h3v-7h7v-3h-7v-7zM5,19v4.5h-4v2h4v4.5h2v-4.5h4v-2h-4v-4.5zM43,19v4.5h-4v2h4v4.5h2v-4.5h4v-2h-4v-4.5zM11,29v6h-6v2h6v6h2v-6h6v-2h-6v-6zM36,29v6h-6v2h6v6h2v-6h6v-2h-6v-6zM23.5,38v4.5h-4v2h4v4.5h2v-4.5h4v-2h-4v-4.5z"></path></g></g>
+</svg>
+</a>
+<a href="mailto:tmalezidis@gmail.com" class="email">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+  </svg>
+</a>
+   
+
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#skills"><i class="bi bi-laptop navicon"></i> Skills</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-folder2-open navicon"></i> Portfolio</a></li>
+       <!--  <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>-->
+       <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">Dropdown 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dropdown 2</a></li>
+            <li><a href="#">Dropdown 3</a></li>
+            <li><a href="#">Dropdown 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i>Contact</a></li>-->
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/banner.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Theodoros Malezidis</h2>
+        <p> <span class="typed" data-typed-items="Data Analyst in the making, Passionate about Data, Data-Driven Storytelling, Visualizing Insights "></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Hello! I'm Theodoros, and I'm on my journey to becoming a data analyst. I'm currently developing my skills in SQL, Tableau, and Excel, and building this portfolio to showcase how I turn data into clear, actionable insights. I'm excited by the endless possibilities data offers — especially when it comes to solving real-world problems and shaping smart decisions.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Operations &amp; Data Coordinator </h2>
+            <h3 style="font-weight:bold; font-size: 1em;">Background</h3>
+
+
+
+            <p class="fst-italic py-3">
+              I’ve worked in healthcare, insurance, and sports event operations — always using data to improve how things run. From managing patient and financial info in diagnostic centers, to analyzing sales and client data in insurance, to optimizing stadium food and drink sales, I’ve learned how to turn numbers into smarter decisions. These experiences help me bring a practical, results-focused mindset to data analysis
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11 December 1982</span></li>
+               
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Trikala, Greece</span></li>
+                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc in Geology</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>43</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tmalezidis@gmail.com</span></li>
+                  
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Not Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+          
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <!--<section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+            </div>
+          </div> -->
+          <!-- End Stats Item -->
+
+          <!--<div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+            </div> 
+          </div> -->
+          <!-- End Stats Item -->
+
+          <!--<div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+            </div>
+          </div> -->
+          <!-- End Stats Item -->
+
+          <!--<div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+            </div>
+          </div> -->
+          <!-- End Stats Item -->
+
+        </div>
+      
+      </div>
+
+    </section>
+    <!-- /Stats Section -->
+
+ 
+<!-- Skills Section -->
+
+<style>
+  /* Skill Tags Styling */
+.skill {
+  display: block;
+  background: #f8f9fa;
+  color: #333;
+  padding: 0.4rem 0.8rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  width: fit-content;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.skill:hover {
+  background: #e9ecef;
+  transform: translateY(-1px);
+}
+
+/* Section Titles under Skills */
+.skills h4 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block; /* Makes the heading only as wide as its text */
+  padding-bottom: 0.3rem; /* Adds space for the underline */
+}
+
+/* Dynamic underline that matches heading width */
+.skills h4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%; /* Now it stretches the full width of the heading */
+  background-color: #000000; /* Black line */
+}
+
+/* Optional spacing between columns */
+.skills .col {
+  margin-bottom: 1.5rem;
+}
+</style>
+
+  <!-- Skills Section -->
+<section id="skills" class="skills section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Skills</h2>
+    <p>I'm actively building my skills in SQL, data visualization, and spreadsheet work— here's a look at the tools I'm working with:</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4">
+
+  <div class="col-lg-4">
+        <h4> Database & Data Management </h4>
+        <div class="skill">PostgreSQL</div>
+        <div class="skill">SQL Server</div>
+      </div>
+
+      <!-- Database Tools -->
+         <div class="col-lg-4">
+        <h4> Programming & Query Languages </h4>
+        <div class="skill">SQL</div>
+    </div>
+
+      <!-- Data Visualization -->
+      <div class="col-lg-4">
+        <h4>Data Visualization</h4>
+        <div class="skill">Tableau</div>
+        <!-- You can add Power BI or Looker later if needed -->
+      </div>
+
+      <!-- Spreadsheet & Analysis -->
+      <div class="col-lg-4">
+        <h4>Spreadsheet & Analysis</h4>
+        <div class="skill">Excel</div>
+      </div>
+
+    </div>
+  </div>
+
+</section><!-- /Skills Section -->
+
+  <!--<div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="skill">SQL</div>
+        <div class="skill">PostgreSQL</div>
+        <div class="skill">SQL Server</div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="skill">Excel</div>
+        <div class="skill">Tableau</div>
+        Optional: Add more tools later -->
+        <!-- <div class="skill">Power BI</div> -->
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>While I haven’t officially held the title of Data Analyst, I’ve consistently worked with data throughout my career — often by taking initiative beyond my formal responsibilities. Early on, I recognized how valuable accurate data and thoughtful analysis can be for improving performance and driving smarter decisions. That realization led me to deepen my skills and explore ways to turn data into real business value .</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+  <div class="row">
+
+    <!-- Left column -->
+    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+      <h3 class="resume-title">Professional Experience</h3>
+
+      <div class="resume-item">
+        <h4>Operations & Data Coordinator</h4>
+        <h5>Diagnostic Imaging Center</h5>
+        <h6>2022 – Today</h6>
+        <p><em>Trikala, Greece</em></p>
+        <ul>
+          <li>Played a key role in launching the diagnostic center from the ground up, establishing operational workflows and core infrastructure</li>
+          <li>Set up and managed the RIS system and internal patient databases for diagnostic records, appointment tracking, and results</li>
+          <li>Designed and maintained a PostgreSQL database to centralize and analyze referral, patient, and financial data from RIS and other sources</li>
+          <li>Identified high-performing referral sources through Excel and SQL analysis and led targeted marketing campaigns, resulting in an 18% revenue increase in the center’s second fiscal year</li>
+          <li>Developed and presented Tableau dashboards to stakeholders, tracking KPIs such as revenue, profit, appointment volume, exam types, and physician performance, enabling data-driven decisions that improved operational efficiency and contributed to revenue growth</li>
+          <li>Managed budgeting and EOPYY (Greece’s national healthcare provider) contract processes using internal financial data to align reimbursement rates with service volume</li>
+          <li>Recruited and coordinated cross-functional staff; used SQL analysis to optimize team workload and shift planning, enabling a 25% increase in daily appointment capacity without additional resources</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <h4>Medical Data Coordinator & Operations Analyst</h4>
+        <h5>Diagnostic Imaging Center</h5>
+        <h6>2017 – 2022</h6>
+        <p><em>Thessaloniki, Greece</em></p>
+        <ul>
+          <li>Managed and maintained the internal RIS database, registering patient records and tracking examination history (MRI, CT, ultrasound, blood tests, checkups)</li>
+          <li>Entered and verified test results, ensuring data accuracy and timely delivery to medical staff </li>
+          <li>Monitored staff performance and proposed workflow optimizations that reduced exam time and improved operational efficiency</li>
+          <li>Analyzed referral patterns from external physicians and supported targeted outreach efforts, helping the marketing team increase engagement with high-referral doctors and drive patient volume growth</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right column -->
+    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+      <h3 class="resume-title invisible">Placeholder</h3> <!-- Invisible header to align layout -->
+
+      <div class="resume-item">
+        <h4>Insurance Advisor</h4>
+        <h5>Health & Life Insurance Firm</h5>
+        <h6>2012 – 2017</h6>
+        <p><em>Thessaloniki, Greece</em></p>
+        <ul>
+          <li>Maintained and analyzed a personal and shared client portfolio, using Excel to monitor sales performance and client retention trends</li>
+<li>Built Excel dashboards to track individual and team commission data, enabling transparent performance comparisons and effective goal-setting</li>
+<li>Conducted sales and retention analysis to identify high-value clients and track product profitability — insights led to a cross-selling lift from 1.5 to 2.2 products per client</li>
+<li>Analyzed provider-level profitability data to identify high-commission products; presented findings to management to support targeted marketing — contributed to a 12% average QoQ commission growth over five consecutive quarters</li>
+        </ul>
+      </div>
+
+      <div class="resume-item">
+        <h4>F&amp;B Operations Coordinator (Stadium-Owned Concessions)</h4>
+        <h5>Stadium Operations – Professional Football Club</h5>
+        <h6>2007 – 2011</h6>
+        <p><em>Thessaloniki, Greece</em></p>
+        <ul>
+          <li>Managed operations of food and beverage concessions across multiple stadium zones</li>
+          <li>Performed zone-level sales analysis by correlate fan attendance data to transaction volumes using Excel, and present insights used to reallocate staff more efficiently, leading to, in some cases, a 30% increase in revenue in targeted areas </li>
+          <li>Built and delivered monthly and quarterly reports to management using Excel dashboards and pivot tables, highlighting revenue, units sold, and profit margins per item — enabled data-driven decisions on product promotions and inventory strategies based on demand and profitability</li>
+          <li>Used foot traffic and sales data to guide staff deployment across service zones, reducing excess staffing in low-demand areas and improving profit margins through better labor cost control</li>
+         
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+
+ <style>   
+.portfolio-content img {
+  width: 100%;
+  height: 250px; /* Or any fixed height you prefer */
+  object-fit: cover; /* Keeps image sharp and fills container */
+  border-radius: 8px; /* Optional: Adds slight rounding like Bootstrap cards */
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.05); /* Optional: Slight zoom on hover */
+}
+</style>
+
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Below are selected projects that showcase my work. Each includes a brief description and a direct link — feel free to dive into the details!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-DataAnalysis">Data Analysis</li>
+            <li data-filter=".filter-DataEngineering">Data Engineering</li>
+            <li data-filter=".filter-DataVisualization">Data Visualization</li>
+           <!-- <li data-filter=".filter-books">Books</li> -->
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataAnalysis">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/housing.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!-- <h4>App 1</h4> -->
+                  <p>Affordable Housing Production</p>
+                  <a href="portfolio-details-housing.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataAnalysis">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/pr_image.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!--<h4>Product 1</h4>-->
+                  <p>Investment Firm Analytics</p>
+                  <a href="portfolio-details-investment.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataEngineering">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/3_layers_architecture.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!--<h4>Branding 1</h4>-->
+                  <p>Data Warehouse Project</p>
+                  <a href="portfolio-details-dwh.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataVisualization">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Sales.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!--<h4>Branding 1</h4>-->
+                  <p>Superstore Project</p>
+                  <a href="portfolio-details-superstore.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataVisualization">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Billionaires_WealthView.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!--<h4>Product 2</h4>-->
+                  <p>Billionaires</p>
+                  <a href="portfolio-details- billionaires.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataVisualization">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/100_Leading_AI_Companies_in_2024.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!--<h4>Branding 2</h4>-->
+                  <p>100 Leading AI Companies in 2024</p>
+                  <a href="portfolio-details-100-Leading-AI-Companies-in-2024 .html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataAnalysis">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/data.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!--<h4>Books 2</h4>-->
+                  <p>Data Jobs Analysis</p>
+                  <a href="portfolio-details- datajobs.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataAnalysis">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/covid1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!--<h4>Books 2</h4>-->
+                  <p>Covid Data Exploration</p>
+                  <a href="portfolio-details- covid-data-exploration.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataAnalysis">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/depression.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!--<h4>Books 2</h4>-->
+                  <p>Depression Data Analysis</p>
+                  <a href="portfolio-details-depression-data-analysis.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataAnalysis">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/students.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!--<h4>Books 2</h4>-->
+                  <p>Students Performance</p>
+                  <a href="portfolio-details- students-performance.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-DataVisualization">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Overview Dashboard.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <!--<h4>Books 2</h4>-->
+                  <p>Investment Firm Dashboard</p>
+                  <a href="portfolio-investment-firm-dashboard.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+   
+ 
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+<!-- 
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div><!-- End Info Item -->
+<!-- 
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><!-- End Info Item -->
+<!-- 
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
+<!-- 
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+-->
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
